@@ -7,6 +7,8 @@ let secondNumber = 8;
 let thirdNumber = 4;
 let fourthNumber = 12;
 
+
+//new change 
 // Exercice incrémentation
 function incrementOnClick() {
     document.getElementById("increment").addEventListener("click", function decrement() {
