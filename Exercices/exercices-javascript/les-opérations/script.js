@@ -7,16 +7,27 @@ let secondNumber = 8;
 let thirdNumber = 4;
 let fourthNumber = 12;
 
-// Exercice incrémentation
-function incrementOnClick() {
-    document.getElementById("increment").addEventListener("click", function decrement() {
-        // Insérez ici le bout de code nécessaire à la réalisation de l'exercice sur la décrémentation, nous verrons plus tard à quoi ces lignes pré-existantes correspondent
-        let incrementCounter = 0;
 
-       console.log("Incrémentez") 
-})};
+/* 18/6/2020
+ *Exercice 2.8
+ Au click sur ce bouton, incrémentez la variable incrementCounter et affichez le résultat dans votre console 
+ */
+
+var incrementCounter = 0;
+function incrementOnClick() {
+    //************************************************************************increment? */
+    //document.getElementById("increment").addEventListener("click", function decrement() {
+        // Insérez ici le bout de code nécessaire à la réalisation de l'exercice sur la décrémentation, nous verrons plus tard à quoi ces lignes pré-existantes correspondent
+        incrementCounter = incrementCounter+1 ;
+       console.log(incrementCounter); 
+};
+/*
+ *End of Exercice 2.8
+ */
+
 // Exercice incrémentation
 function decrementOnClick() {
+
     document.getElementById("decrement").addEventListener("click", function increment() {
         // Insérez ici le bout de code nécessaire à la réalisation de l'exercice sur la décrémentation, nous verrons plus tard à quoi ces lignes pré-existantes correspondent
         let decrementCounter = 100;
