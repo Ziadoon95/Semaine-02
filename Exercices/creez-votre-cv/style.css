@@ -1,6 +1,18 @@
 body{
   width: 100%
 }
-a{
-  width: 10%
+#leftside {
+  background-color : #1D2435;
+  color : white ;
+  width: 30%;
+  float : left;
+}
+#rightside 
+{
+
+  background-color:  whitesmoke;
+  
+  max-width: 60%;
+  display: inline-block;
+  
 }
